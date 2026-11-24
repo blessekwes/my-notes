@@ -1,0 +1,13 @@
+{
+  "name": "my-notes",
+  "version": "1.0.0",
+  "description": "Простое full-stack приложение для экзамена",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "express": "^5.1.0"
+  }
+}

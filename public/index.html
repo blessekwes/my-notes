@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои заметки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Мои заметки</h1>
+
+        <form id="noteForm">
+            <input id="title" type="text" placeholder="Название заметки" required>
+            <textarea id="content" placeholder="Текст заметки" required></textarea>
+            <button type="submit">Добавить заметку</button>
+        </form>
+
+        <h2>Список заметок</h2>
+        <div id="notes"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
